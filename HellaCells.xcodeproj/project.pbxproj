@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CDBB39A1D197AE30027774A /* FISHellaDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBB3991D197AE30027774A /* FISHellaDetailViewController.m */; };
+		2CDBB39D1D197B490027774A /* FISHellaMasterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDBB39C1D197B490027774A /* FISHellaMasterTableViewController.m */; };
 		721DFB6219EEFF6B00132073 /* FISViewSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 721DFB6119EEFF6B00132073 /* FISViewSpec.m */; };
 		721DFB6A19EF01A300132073 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 721DFB6919EF01A300132073 /* Storyboard.storyboard */; };
 		728B988B19EEEFEB000F274D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 728B988A19EEEFEB000F274D /* main.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CDBB3981D197AE30027774A /* FISHellaDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaDetailViewController.h; sourceTree = "<group>"; };
+		2CDBB3991D197AE30027774A /* FISHellaDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaDetailViewController.m; sourceTree = "<group>"; };
+		2CDBB39B1D197B490027774A /* FISHellaMasterTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHellaMasterTableViewController.h; sourceTree = "<group>"; };
+		2CDBB39C1D197B490027774A /* FISHellaMasterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHellaMasterTableViewController.m; sourceTree = "<group>"; };
 		3326D7C1069EDA1B7A3400FE /* libPods-HellaCellsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HellaCellsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39846CB05D69015C086572EF /* Pods-HellaCellsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HellaCellsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HellaCellsTests/Pods-HellaCellsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		721DFB6119EEFF6B00132073 /* FISViewSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISViewSpec.m; sourceTree = "<group>"; };
@@ -95,6 +101,10 @@
 			children = (
 				728B988C19EEEFEB000F274D /* AppDelegate.h */,
 				728B988D19EEEFEB000F274D /* AppDelegate.m */,
+				2CDBB3981D197AE30027774A /* FISHellaDetailViewController.h */,
+				2CDBB3991D197AE30027774A /* FISHellaDetailViewController.m */,
+				2CDBB39B1D197B490027774A /* FISHellaMasterTableViewController.h */,
+				2CDBB39C1D197B490027774A /* FISHellaMasterTableViewController.m */,
 				721DFB6919EF01A300132073 /* Storyboard.storyboard */,
 				728B989519EEEFEB000F274D /* Images.xcassets */,
 				728B989719EEEFEB000F274D /* LaunchScreen.xib */,
@@ -274,7 +284,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				728B988E19EEEFEB000F274D /* AppDelegate.m in Sources */,
+				2CDBB39D1D197B490027774A /* FISHellaMasterTableViewController.m in Sources */,
 				728B988B19EEEFEB000F274D /* main.m in Sources */,
+				2CDBB39A1D197AE30027774A /* FISHellaDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
